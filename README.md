@@ -12,8 +12,10 @@ The processes to reduce the time to create the ground truth, find the vocabulary
 
 ## Experiment
 
-We experimented with masked language model scoring and word replacement by using the toolkits and references below. 
-[mlm-scoring](https://github.com/awslabs/mlm-scoring), [Language model built with Gutemberg vocabulary, KenLM and Moses Toolki](https://github.com/alberto-poncelas/tesseract_postprocess/tree/master/resources) (https://github.com/kpu/kenlm, http://www2.statmt.org/moses/)
+We experimented with masked language model scoring and word replacement by using the toolkits and references below: 
+* [mlm-scoring](https://github.com/awslabs/mlm-scoring)
+* [Language model built with Gutemberg vocabulary, KenLM and Moses Toolki](https://github.com/alberto-poncelas/tesseract_postprocess/tree/master/resources) (https://github.com/kpu/kenlm, http://www2.statmt.org/moses/)
+
 The modified and used scripts can be found in the [experiment/](experiment/kenlm_mlm/)
 folder. 
 
