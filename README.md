@@ -16,11 +16,10 @@ We experimented with masked language model scoring and word replacement by using
 * [mlm-scoring](https://github.com/awslabs/mlm-scoring)
 * [Language model built with Gutemberg vocabulary, KenLM and Moses Toolki](https://github.com/alberto-poncelas/tesseract_postprocess/tree/master/resources) (https://github.com/kpu/kenlm, http://www2.statmt.org/moses/)
 
-The modified and used scripts can be found in the [experiment/](experiment/kenlm_mlm/)
-folder. 
+The modified and used scripts can be found in the [experiment/](experiment/kenlm_mlm/) folder. 
 
 We experimented post-correction with the latest [GPT-4o](https://openai.com/index/gpt-4), [GPT-3.5]((https://openai.com/index/gpt-4), [Qwen2.5](https://qwenlm.github.io/blog/qwen2.5/), [Gemma2](https://huggingface.co/docs/transformers/en/model_doc/gemma2), [Llama3.1](https://ai.meta.com/blog/meta-llama-3-1/), and [Mistral-Nemo](https://mistral.ai/news/mistral-nemo/) and compared the results with the best Tesseract English model, ENG. The evaluation was done with the [Chainforge tool](https://github.com/ianarawjo/ChainForge) and the Levenshtein distance algorithm.
-The scripts and dataset used can be found under the [experiment/](experiment/llm/)folder. 
+The scripts and dataset used can be found under the [experiment/](experiment/llm/) folder. 
 
 ## Training & evaluation
 The Tesseract training and evaluation make use of the following resources:
