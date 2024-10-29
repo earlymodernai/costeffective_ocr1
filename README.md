@@ -1,4 +1,4 @@
-# Project Title
+# Cost-effective OCR - GTD
 
 Cost-effective Optical Character Recognition (OCR) Text Improvement for the Grand Tour Diaries Dataset
 
