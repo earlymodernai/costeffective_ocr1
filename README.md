@@ -13,8 +13,7 @@ The processes to reduce the time to create the ground truth, find the vocabulary
 ## Experiment
 
 We experimented with masked language model scoring and word replacement by using the toolkits and references below. 
-[mll-scoring](https://github.com/awslabs/mlm-scoring)
-[Language model built with Gutemberg vocabulary, KenLM and Moses Toolki](https://github.com/alberto-poncelas/tesseract_postprocess/tree/master/resources) (https://github.com/kpu/kenlm, http://www2.statmt.org/moses/)
+[mlm-scoring](https://github.com/awslabs/mlm-scoring), [Language model built with Gutemberg vocabulary, KenLM and Moses Toolki](https://github.com/alberto-poncelas/tesseract_postprocess/tree/master/resources) (https://github.com/kpu/kenlm, http://www2.statmt.org/moses/)
 The modified and used scripts can be found in the [experiment/](experiment/kenlm_mlm/)
 folder. 
 
@@ -23,15 +22,14 @@ The scripts and dataset used can be found under the [experiment/](experiment/llm
 
 ## Training & evaluation
 The Tesseract training and evaluation make use of the following resources:
-https://github.com/tesseract-ocr/tesstrain
-https://github.com/tesseract-ocr/tesseract
-https://github.com/tesseract-ocr/tesstrain
-https://github.com/Shreeshrii/tesstrain
+* https://github.com/tesseract-ocr/tesstrain
+* https://github.com/tesseract-ocr/tesseract
+* https://github.com/Shreeshrii/tesstrain
 
 The training files and scripts can be found under the [training/](training/) folder.
 
 ## Test
 
-The testing made use of [Tesseract OCR](https://github.com/tesseract-ocr/tesseract), [dinglehopper](https://github.com/qurator-spk/dinglehopper), and [chainforge](https://github.com/ianarawjo/ChainForge). The scripts and files used can be found under the [test/](test/) folder.
+The testing made use of [Tesseract OCR](https://github.com/tesseract-ocr/tesseract), [Dinglehopper](https://github.com/qurator-spk/dinglehopper), and [Chainforge](https://github.com/ianarawjo/ChainForge). The scripts and files used can be found under the [test/](test/) folder.
 
 
