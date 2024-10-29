@@ -1,0 +1,1 @@
+tesseract -l gtd png/pngfile.png - 

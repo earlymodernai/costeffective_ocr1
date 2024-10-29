@@ -1,0 +1,1 @@
+dinglehopper txt/gtd/gt_text.txt txt/eng/ocr_text.txt --progress --metrics 

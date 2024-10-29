@@ -1,0 +1,4 @@
+[DEFAULT]
+VOCAB=/path/ocr/postprocess/tesseract/resources/vocab_roberta.txt
+AMBIG_CHARS=/path/ocr/postprocess/tesseract/resources/ambig_chars
+LM=/path/ocr/postprocess/tesseract/resources/LM.en

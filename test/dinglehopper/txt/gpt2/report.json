@@ -1,0 +1,10 @@
+{
+    "gt": "gtdnetcnn-gt/gt_text.txt",
+    "ocr": "gpt2/ocr_text.txt",
+
+    "cer": 0.09646219318230667,
+    "wer": 0.18302658486707565,
+
+    "n_characters": 23263,
+    "n_words": 3912
+}

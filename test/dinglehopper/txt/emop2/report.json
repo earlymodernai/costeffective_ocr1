@@ -1,0 +1,10 @@
+{
+    "gt": "gtdnetcnn-gt/gt_text.txt",
+    "ocr": "SC8b-R7-D2b-forECCO/ocr_text.txt",
+
+    "cer": 0.08133086876155268,
+    "wer": 0.21855828220858894,
+
+    "n_characters": 23263,
+    "n_words": 3912
+}

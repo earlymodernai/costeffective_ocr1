@@ -1,0 +1,10 @@
+{
+    "gt": "gtdnetcnn-gt/gt_text.txt",
+    "ocr": "enmgtd/ocr_text.txt",
+
+    "cer": 0.024932295920560548,
+    "wer": 0.08665644171779141,
+
+    "n_characters": 23263,
+    "n_words": 3912
+}
